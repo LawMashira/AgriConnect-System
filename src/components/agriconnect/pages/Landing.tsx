@@ -221,13 +221,13 @@ const LandingPage = () => {
     <div className="mt-8">
       <a
         href="#features"
-        className="bg-green-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-green-700 mr-4"
+        className="bg-green-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-green-700 mr-4 truncate overflow-visible"
       >
         Learn More
       </a>
       <a
         href="#contact"
-        className="bg-transparent border-2 border-green-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-green-600"
+        className="bg-transparent border-2 border-green-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-green-600 truncate overflow-visible"
       >
         Contact Us
       </a>

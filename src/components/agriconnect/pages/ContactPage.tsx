@@ -89,23 +89,24 @@ const ContactPage = () => {
       <section className="bg-gray-50 py-20">
         <ContactForm />
       </section>
-
+      
+      
       {/* Map Section */}
-      <section className="py-20 bg-gray-100">
-        <h3 className="text-3xl font-bold text-center text-green-700 mb-6">Find Us</h3>
-        <div className="flex justify-center">
-          <div className="w-full sm:w-3/4 md:w-2/3 lg:w-1/2">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2799148323!2d-74.2598665333846!3d40.6976700634557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259abbbdc1f33%3A0x88ff8da495bd8b3c!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1635954019647!5m2!1sen!2sin"
-              width="100%"
-              height="450"
-              style={{ border: 0 }}
-             
-              loading="lazy"
-            ></iframe>
-          </div>
-        </div>
-      </section>
+<section className="py-20 bg-gray-100 w-full">
+  <h3 className="text-3xl font-bold text-center text-green-700 mb-6">Find Us</h3>
+  <div className="w-full">
+    <iframe
+    title='Bulawayo'
+      src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=bulawayo+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+      width="100%"
+      height="600"
+      style={{ border: 0 }}
+      allowFullScreen
+      loading="lazy"
+    ></iframe>
+  </div>
+</section>
+
 
       {/* Footer */}
       <footer className="bg-green-700 text-white py-6 text-center">
