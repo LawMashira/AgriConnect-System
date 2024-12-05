@@ -22,7 +22,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="flex justify-center items-center py-20 bg-gray-50 min-h-screen">
+    <div className="flex justify-center items-center py-20 bg-gray-50 min-h-screen bg-gradient-to-r from-green-300 to-green-600">
       <form
         onSubmit={handleSubmit}
         className="bg-white p-8 rounded-lg shadow-lg w-full sm:w-3/4 md:w-1/2 lg:w-1/3"
@@ -86,14 +86,14 @@ const ContactPage = () => {
   return (
     <div>
       {/* Contact Form Section */}
-      <section className="bg-gray-50 py-20">
+      <section className="bg-gray-50 py-20 bg-gradient-to-r from-green-300 to-green-600">
         <ContactForm />
       </section>
       
       
       {/* Map Section */}
-<section className="py-20 bg-gray-100 w-full">
-  <h3 className="text-3xl font-bold text-center text-green-700 mb-6">Find Us</h3>
+<section className="py-20 bg-gray-100 w-full bg-gradient-to-r from-green-300 to-green-600">
+  <h3 className="text-4xl font-bold text-center text-white mb-6">Locate Us</h3>
   <div className="w-full">
     <iframe
     title='Bulawayo'
